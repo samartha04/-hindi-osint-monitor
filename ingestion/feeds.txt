@@ -1,0 +1,20 @@
+# Hindi news RSS feeds — one URL per line, # to comment out.
+#
+# IMPORTANT: these URLs are commonly cited but NOT verified from this
+# environment (outbound fetch to news sites is blocked in the sandbox that
+# built this repo). Before your first real collection run:
+#   1. Paste each URL into a browser — you should see raw XML, not a 404/HTML page.
+#   2. Run `python ingestion/news_rss.py` and check the [ok]/[warn] output
+#      per feed — feedparser will print a warning if a feed doesn't parse.
+#   3. Delete or fix any line that doesn't resolve, and note the working
+#      ones back into this file so the team doesn't re-debug the same feed.
+#
+# Outlets change RSS paths often — treat this as a starting point, not a
+# guarantee.
+
+https://feeds.bbci.co.uk/hindi/rss.xml
+https://www.bhaskarhindi.com/rss-feed/1063.xml
+https://hindi.oneindia.com/rss/hindi-news-fb.xml
+https://www.livehindustan.com/rss/national
+https://navbharattimes.indiatimes.com/rssfeedstopstories.cms
+https://www.amarujala.com/rss/breaking-news.xml

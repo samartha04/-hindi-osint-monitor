@@ -1,0 +1,23 @@
+# ingestion
+feedparser==6.0.11
+praw==7.7.1
+google-api-python-client==2.126.0
+requests==2.31.0
+
+# modeling
+transformers==4.41.0
+torch==2.3.0
+sentence-transformers==2.7.0
+hdbscan==0.8.36
+scikit-learn==1.4.2
+
+# scoring / general
+numpy==1.26.4
+pandas==2.2.2
+python-dotenv==1.0.1
+
+# eval
+scikit-learn==1.4.2
+
+# dashboard (pick one once you decide; Streamlit is fastest for a student team)
+streamlit==1.35.0

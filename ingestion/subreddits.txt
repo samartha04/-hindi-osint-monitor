@@ -1,0 +1,15 @@
+# Subreddits to monitor — one per line, # to comment out.
+#
+# HONEST LIMITATION: Reddit's Hindi-language content is thin. Most India-focused
+# subreddits are English-dominant or Hinglish (romanized), not Devanagari. If
+# your MVP scope is "Devanagari-script only" (see docs/scope discussion), Reddit
+# may contribute much less volume than news/YouTube — that's expected, not a bug
+# in this collector. Worth a line in your report's limitations section rather
+# than being surprised by it in week 6.
+#
+# Start broad, narrow down once you see what actually surfaces Devanagari text.
+
+india
+IndiaSpeaks
+Chodi
+bakchodi

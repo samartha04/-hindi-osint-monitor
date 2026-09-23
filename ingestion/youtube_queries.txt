@@ -1,0 +1,9 @@
+# Hindi-language YouTube search queries — one per line, # to comment out.
+# These drive the 'search' API call (relevanceLanguage=hi is set in code,
+# so these don't need to be exhaustive, just representative seed topics).
+
+समाचार आज
+ब्रेकिंग न्यूज़
+वायरल खबर
+सरकारी योजना
+चुनाव अपडेट
